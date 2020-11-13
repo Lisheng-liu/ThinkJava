@@ -14,10 +14,6 @@ public class InterruputSleepThread3 {
 
 
 
-
-
-
-
     public static void threadException() throws InterruptedException {
         Thread thread = new Thread(()->{
             try {
