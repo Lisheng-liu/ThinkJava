@@ -58,7 +58,7 @@ public class SemaphoreTt {
                 case 0:
                     semaphore.acquireUninterruptibly();
                     try {
-                        Thread.sleep(new Random().nextInt()*1000);
+                        Thread.sleep(1000*10);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -69,7 +69,7 @@ public class SemaphoreTt {
                     try {
                         if(semaphore.tryAcquire(new Random().nextInt(),TimeUnit.SECONDS)){
                             try {
-                                Thread.sleep(new Random().nextInt()*1000);
+                                Thread.sleep(1000*10);
                             } catch (InterruptedException e) {
                                 e.printStackTrace();
                             }
@@ -91,7 +91,7 @@ public class SemaphoreTt {
                         e.printStackTrace();
                     }
                     try {
-                        Thread.sleep(new Random().nextInt()*1000);
+                        Thread.sleep(10*1000);
                     } catch (InterruptedException e) {
                         System.out.println(name + " 全部聚餐，不再打饭.");
                     }
