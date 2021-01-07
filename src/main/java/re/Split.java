@@ -45,6 +45,12 @@ public class Split {
         String word = "word";
         word = word.substring(0,1).toUpperCase()+word.substring(1,word.length());
         System.out.println(word);
+        System.out.println("-----------");
+        System.out.println((int)0.8);
+
+
+        System.out.println(0.8  == 0.8);
+        System.out.println(Integer.parseInt("0.8"));
 
     }
 
