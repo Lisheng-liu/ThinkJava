@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90ecb21b-a4c2-4a55-94cd-36b23eb9168d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdk8/OptionalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/re/Split.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/re/Split.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/re/Split.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/re/Split.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdk8/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdk8/OptionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,39 +46,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.OptionalTest.testNullpointerException">
-    <configuration name="OptionalTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thinkJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdk8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdk8" />
-      <option name="MAIN_CLASS_NAME" value="jdk8.OptionalTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptionalTest.testNullpointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thinkJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdk8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdk8" />
-      <option name="MAIN_CLASS_NAME" value="jdk8.OptionalTest" />
-      <option name="METHOD_NAME" value="testNullpointerException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.OptionalTest.whenEmptyStream_thenReturnDefaultOptional">
     <configuration name="OptionalTest.testOptional" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thinkJava" />
       <extension name="coverage">
@@ -94,7 +63,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalTest.testOptional2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalTest.whenEmptyStream_thenReturnDefaultOptional" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thinkJava" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +73,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="jdk8" />
       <option name="MAIN_CLASS_NAME" value="jdk8.OptionalTest" />
-      <option name="METHOD_NAME" value="testOptional2" />
+      <option name="METHOD_NAME" value="whenEmptyStream_thenReturnDefaultOptional" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalTest.testOptional3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalTest.whenFilter_thenOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thinkJava" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +89,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="jdk8" />
       <option name="MAIN_CLASS_NAME" value="jdk8.OptionalTest" />
-      <option name="METHOD_NAME" value="testOptional3" />
+      <option name="METHOD_NAME" value="whenFilter_thenOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalTest.whenMap_thenOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thinkJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdk8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdk8" />
+      <option name="MAIN_CLASS_NAME" value="jdk8.OptionalTest" />
+      <option name="METHOD_NAME" value="whenMap_thenOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalTest.whenThrowException_thenOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thinkJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdk8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdk8" />
+      <option name="MAIN_CLASS_NAME" value="jdk8.OptionalTest" />
+      <option name="METHOD_NAME" value="whenThrowException_thenOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OptionalTest.testNullpointerException" />
-        <item itemvalue="JUnit.OptionalTest.testOptional3" />
-        <item itemvalue="JUnit.OptionalTest.testOptional2" />
+        <item itemvalue="JUnit.OptionalTest.whenEmptyStream_thenReturnDefaultOptional" />
         <item itemvalue="JUnit.OptionalTest.testOptional" />
-        <item itemvalue="JUnit.OptionalTest.test" />
+        <item itemvalue="JUnit.OptionalTest.whenFilter_thenOk" />
+        <item itemvalue="JUnit.OptionalTest.whenMap_thenOk" />
+        <item itemvalue="JUnit.OptionalTest.whenThrowException_thenOk" />
       </list>
     </recent_temporary>
   </component>
@@ -162,22 +163,22 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="481" y="207" key="FileChooserDialogImpl/65.24.1375.876@65.24.1375.876" timestamp="1609178858899" />
-    <state width="1323" height="185" key="GridCell.Tab.0.bottom" timestamp="1610060811912">
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1610071600171">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1610060811912" />
-    <state width="1323" height="185" key="GridCell.Tab.0.center" timestamp="1610060811911">
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1610071600171" />
+    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1610071600171">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1610060811911" />
-    <state width="1323" height="185" key="GridCell.Tab.0.left" timestamp="1610060811911">
+    <state width="1323" height="156" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1610071600171" />
+    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1610071600171">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1610060811911" />
-    <state width="1323" height="185" key="GridCell.Tab.0.right" timestamp="1610060811912">
+    <state width="1323" height="156" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1610071600171" />
+    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1610071600171">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1610060811912" />
+    <state width="1323" height="156" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1610071600171" />
     <state width="1321" height="268" key="GridCell.Tab.1.bottom" timestamp="1606794990853">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
