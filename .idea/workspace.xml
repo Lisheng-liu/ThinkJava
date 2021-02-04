@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90ecb21b-a4c2-4a55-94cd-36b23eb9168d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/current/thread/ClassStaticVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/current/thread/ClassStaticVar2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/HelloReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/ReflectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jdk8/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdk8/OptionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/thinkJava.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Address1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Address1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Country1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Country1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$User1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest$User1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdk8/OptionalTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +48,57 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-drools/springbootDrools" />
+    <property name="last_opened_file_path" value="$USER_HOME$/下载/spring-security-oauth-example" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.20800781" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.OptionalTest.whenEmptyStream_thenReturnDefaultOptional">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="current.thread" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ReflectTest">
+    <configuration name="ClassStaticVar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="current.thread.ClassStaticVar" />
+      <module name="thinkJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="current.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassStaticVar2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="current.thread.ClassStaticVar2" />
+      <module name="thinkJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="current.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflect.ReflectTest" />
+      <module name="thinkJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OptionalTest.testOptional" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thinkJava" />
       <extension name="coverage">
@@ -79,61 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalTest.whenFilter_thenOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thinkJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdk8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdk8" />
-      <option name="MAIN_CLASS_NAME" value="jdk8.OptionalTest" />
-      <option name="METHOD_NAME" value="whenFilter_thenOk" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptionalTest.whenMap_thenOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thinkJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdk8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdk8" />
-      <option name="MAIN_CLASS_NAME" value="jdk8.OptionalTest" />
-      <option name="METHOD_NAME" value="whenMap_thenOk" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptionalTest.whenThrowException_thenOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thinkJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdk8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdk8" />
-      <option name="MAIN_CLASS_NAME" value="jdk8.OptionalTest" />
-      <option name="METHOD_NAME" value="whenThrowException_thenOk" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectTest" />
+        <item itemvalue="Application.ClassStaticVar2" />
+        <item itemvalue="Application.ClassStaticVar" />
         <item itemvalue="JUnit.OptionalTest.whenEmptyStream_thenReturnDefaultOptional" />
         <item itemvalue="JUnit.OptionalTest.testOptional" />
-        <item itemvalue="JUnit.OptionalTest.whenFilter_thenOk" />
-        <item itemvalue="JUnit.OptionalTest.whenMap_thenOk" />
-        <item itemvalue="JUnit.OptionalTest.whenThrowException_thenOk" />
       </list>
     </recent_temporary>
   </component>
@@ -155,46 +159,50 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="300" y="110" key="#Project_Structure/65.24.1375.876@65.24.1375.876" timestamp="1605242247467" />
-    <state x="754" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1610048032745">
+    <state x="754" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1612406891180">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="754" y="256" key="#com.intellij.ide.util.MemberChooser/65.24.1375.876@65.24.1375.876" timestamp="1610048032745" />
-    <state x="481" y="207" key="FileChooserDialogImpl" timestamp="1609178858899">
+    <state x="754" y="256" key="#com.intellij.ide.util.MemberChooser/65.24.1375.876@65.24.1375.876" timestamp="1612406891180" />
+    <state x="496" y="101" key="#xdebugger.evaluate" timestamp="1612400496427">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="481" y="207" key="FileChooserDialogImpl/65.24.1375.876@65.24.1375.876" timestamp="1609178858899" />
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1610071600171">
+    <state x="496" y="101" key="#xdebugger.evaluate/65.24.1375.876@65.24.1375.876" timestamp="1612400496427" />
+    <state x="481" y="207" key="FileChooserDialogImpl" timestamp="1610133498369">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1610071600171" />
-    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1610071600171">
+    <state x="481" y="207" key="FileChooserDialogImpl/65.24.1375.876@65.24.1375.876" timestamp="1610133498369" />
+    <state width="1323" height="200" key="GridCell.Tab.0.bottom" timestamp="1612406963595">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1610071600171" />
-    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1610071600171">
+    <state width="1323" height="200" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1612406963595" />
+    <state width="1323" height="200" key="GridCell.Tab.0.center" timestamp="1612406963595">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1610071600171" />
-    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1610071600171">
+    <state width="1323" height="200" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1612406963595" />
+    <state width="1323" height="200" key="GridCell.Tab.0.left" timestamp="1612406963595">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1610071600171" />
-    <state width="1321" height="268" key="GridCell.Tab.1.bottom" timestamp="1606794990853">
+    <state width="1323" height="200" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1612406963595" />
+    <state width="1323" height="200" key="GridCell.Tab.0.right" timestamp="1612406963595">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1321" height="268" key="GridCell.Tab.1.bottom/65.24.1375.876@65.24.1375.876" timestamp="1606794990853" />
-    <state width="1321" height="268" key="GridCell.Tab.1.center" timestamp="1606794990853">
+    <state width="1323" height="200" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1612406963595" />
+    <state width="1323" height="290" key="GridCell.Tab.1.bottom" timestamp="1612406920432">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1321" height="268" key="GridCell.Tab.1.center/65.24.1375.876@65.24.1375.876" timestamp="1606794990853" />
-    <state width="1321" height="268" key="GridCell.Tab.1.left" timestamp="1606794990853">
+    <state width="1323" height="290" key="GridCell.Tab.1.bottom/65.24.1375.876@65.24.1375.876" timestamp="1612406920432" />
+    <state width="1323" height="290" key="GridCell.Tab.1.center" timestamp="1612406920431">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1321" height="268" key="GridCell.Tab.1.left/65.24.1375.876@65.24.1375.876" timestamp="1606794990853" />
-    <state width="1321" height="268" key="GridCell.Tab.1.right" timestamp="1606794990853">
+    <state width="1323" height="290" key="GridCell.Tab.1.center/65.24.1375.876@65.24.1375.876" timestamp="1612406920431" />
+    <state width="1323" height="290" key="GridCell.Tab.1.left" timestamp="1612406920431">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1321" height="268" key="GridCell.Tab.1.right/65.24.1375.876@65.24.1375.876" timestamp="1606794990853" />
+    <state width="1323" height="290" key="GridCell.Tab.1.left/65.24.1375.876@65.24.1375.876" timestamp="1612406920431" />
+    <state width="1323" height="290" key="GridCell.Tab.1.right" timestamp="1612406920432">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state width="1323" height="290" key="GridCell.Tab.1.right/65.24.1375.876@65.24.1375.876" timestamp="1612406920432" />
     <state x="240" y="26" key="SettingsEditor" timestamp="1609178652438">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -215,6 +223,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/current/aqs/ConditionTest.java</url>
           <line>42</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/reflect/ReflectTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/reflect/ReflectTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/reflect/ReflectTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
