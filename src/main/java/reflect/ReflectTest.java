@@ -3,6 +3,7 @@ package reflect;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 public class ReflectTest {
 
@@ -22,6 +23,11 @@ public class ReflectTest {
         Object o1 = constructor.newInstance(new Object[]{"bb",""});
         HelloReflect helloReflect1 = (HelloReflect)o;
         System.out.println("helloReflect1:"+helloReflect1.getName());
+
+
+        System.out.println("method invoke ... ");
+        Method method = c.getDeclaredMethod("print");
+        method.invoke(helloReflect);
 
 
 

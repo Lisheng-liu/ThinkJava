@@ -16,7 +16,8 @@ public class ThreadDemon {
                 }
             },"thread-"+i);
           thread.setDaemon(true);
-          thread.start();
+//          thread.start();
+            thread.run();
         }
 
         System.out.println("main start ");

@@ -27,4 +27,8 @@ public class HelloReflect {
     public void setValue(String value) {
         this.value = value;
     }
+
+    public void print(){
+        System.out.println("name:"+name+",value:"+value);
+    }
 }
