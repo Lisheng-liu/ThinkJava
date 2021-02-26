@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90ecb21b-a4c2-4a55-94cd-36b23eb9168d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicProxy/jdk/StarProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicProxy/jdk/StarProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicProxy/jdk/TestJdkDynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicProxy/jdk/TestJdkDynamicProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dynamicProxy/jdk/StarProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dynamicProxy/jdk/StarProxy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +49,7 @@
       <recent name="current.thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CglibProxyTest">
-    <configuration name="BioSocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nio.t2.BioSocketClient" />
-      <module name="thinkJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nio.t2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UncloseRefrence">
     <configuration name="BioSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nio.t2.BioSocketServer" />
       <module name="thinkJava" />
@@ -119,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UncloseRefrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="object.UncloseRefrence" />
+      <module name="thinkJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UncloseRefrence" />
         <item itemvalue="Application.CglibProxyTest" />
         <item itemvalue="Application.TestJdkDynamicProxy" />
         <item itemvalue="Application.NioSocketChannel" />
         <item itemvalue="Application.BioSocketServer" />
-        <item itemvalue="Application.BioSocketClient" />
       </list>
     </recent_temporary>
   </component>
@@ -143,10 +139,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="674" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1614302891212">
+    <state x="674" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1614363497547">
       <screen x="65" y="24" width="1215" height="936" />
     </state>
-    <state x="674" y="272" key="#com.intellij.ide.util.MemberChooser/65.24.1215.936@65.24.1215.936" timestamp="1614302891212" />
+    <state x="674" y="272" key="#com.intellij.ide.util.MemberChooser/65.24.1215.936@65.24.1215.936" timestamp="1614363497547" />
     <state x="754" y="256" key="#com.intellij.ide.util.MemberChooser/65.24.1375.876@65.24.1375.876" timestamp="1612406891180" />
     <state x="496" y="101" key="#xdebugger.evaluate" timestamp="1612572790793">
       <screen x="65" y="24" width="1375" height="876" />
@@ -156,25 +152,25 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="481" y="207" key="FileChooserDialogImpl/65.24.1375.876@65.24.1375.876" timestamp="1610133498369" />
-    <state width="1163" height="160" key="GridCell.Tab.0.bottom" timestamp="1614303300396">
+    <state width="1163" height="160" key="GridCell.Tab.0.bottom" timestamp="1614363292811">
       <screen x="65" y="24" width="1215" height="936" />
     </state>
-    <state width="1163" height="160" key="GridCell.Tab.0.bottom/65.24.1215.936@65.24.1215.936" timestamp="1614303300396" />
+    <state width="1163" height="160" key="GridCell.Tab.0.bottom/65.24.1215.936@65.24.1215.936" timestamp="1614363292811" />
     <state width="1323" height="147" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1612574365104" />
-    <state width="1163" height="160" key="GridCell.Tab.0.center" timestamp="1614303300396">
+    <state width="1163" height="160" key="GridCell.Tab.0.center" timestamp="1614363292811">
       <screen x="65" y="24" width="1215" height="936" />
     </state>
-    <state width="1163" height="160" key="GridCell.Tab.0.center/65.24.1215.936@65.24.1215.936" timestamp="1614303300396" />
+    <state width="1163" height="160" key="GridCell.Tab.0.center/65.24.1215.936@65.24.1215.936" timestamp="1614363292811" />
     <state width="1323" height="147" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1612574365104" />
-    <state width="1163" height="160" key="GridCell.Tab.0.left" timestamp="1614303300395">
+    <state width="1163" height="160" key="GridCell.Tab.0.left" timestamp="1614363292811">
       <screen x="65" y="24" width="1215" height="936" />
     </state>
-    <state width="1163" height="160" key="GridCell.Tab.0.left/65.24.1215.936@65.24.1215.936" timestamp="1614303300395" />
+    <state width="1163" height="160" key="GridCell.Tab.0.left/65.24.1215.936@65.24.1215.936" timestamp="1614363292811" />
     <state width="1323" height="147" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1612574365104" />
-    <state width="1163" height="160" key="GridCell.Tab.0.right" timestamp="1614303300396">
+    <state width="1163" height="160" key="GridCell.Tab.0.right" timestamp="1614363292811">
       <screen x="65" y="24" width="1215" height="936" />
     </state>
-    <state width="1163" height="160" key="GridCell.Tab.0.right/65.24.1215.936@65.24.1215.936" timestamp="1614303300396" />
+    <state width="1163" height="160" key="GridCell.Tab.0.right/65.24.1215.936@65.24.1215.936" timestamp="1614363292811" />
     <state width="1323" height="147" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1612574365104" />
     <state width="1163" height="427" key="GridCell.Tab.1.bottom" timestamp="1614303085574">
       <screen x="65" y="24" width="1215" height="936" />
