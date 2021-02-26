@@ -5,28 +5,30 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 public class StarProxy implements InvocationHandler {
+
     // 目标类，也就是被代理对象
     private Object target;
 
-    public void setTarget(Object target)
-    {
+    public void setTarget(Object target){
         this.target = target;
     }
 
     @Override
-    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable
-    {
-        // 这里可以做增强
-        System.out.println("收钱");
+    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 
-        Object result = method.invoke(target, args);
-
+        // 这里增强
+        System.out.println("before :谈钱");
+        Object result = method.invoke(target,args);
+        System.out.println("after :收钱");
         return result;
     }
 
-    // 生成代理类
     public Object CreatProxyedObj()
     {
-        return Proxy.newProxyInstance(target.getClass().getClassLoader(), target.getClass().getInterfaces(), this);
+        /**
+         * 由源码可看到是通过 class 的加载是通过字节吗生成的, 且jdk 代理类是有缓存弱引用，再通过class  的构造器反射 构建对象
+         */
+        return Proxy.newProxyInstance(target.getClass().getClassLoader(),target.getClass().getInterfaces(),this);
     }
+
 }
