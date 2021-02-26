@@ -39,7 +39,7 @@ public class NioSocketChannel {
                     buffer.put(info.getBytes());
                     buffer.flip();
                     while(buffer.hasRemaining()){
-                        for(int j= 0; j<024;j++{
+                        for(int j= 0; j<024;j++){
                             System.out.print((char)buffer.get());
                         }
                         socketChannel.write(buffer);

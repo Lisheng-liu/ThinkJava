@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90ecb21b-a4c2-4a55-94cd-36b23eb9168d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nio/t1/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nio/t1/NIOServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/current/thread/ThreadDemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/current/thread/ThreadDemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/HelloReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflect/HelloReflect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/ReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflect/ReflectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/current/thread/ThreadDemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/current/thread/ThreadDemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflect/HelloReflect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reflect/HelloReflect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reflect/ReflectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reflect/ReflectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nio/t2/NioSocketChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nio/t2/NioSocketChannel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,7 +50,7 @@
       <recent name="current.thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NioSocketChannel">
+  <component name="RunManager" selected="Application.TestJdkDynamicProxy">
     <configuration name="BioSocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nio.t2.BioSocketClient" />
       <module name="thinkJava" />
@@ -97,19 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nio.t1.NIOClient" />
-      <module name="thinkJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nio.t1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NioSocketChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nio.t2.NioSocketChannel" />
       <module name="thinkJava" />
@@ -123,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestJdkDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicProxy.jdk.TestJdkDynamicProxy" />
+      <module name="thinkJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicProxy.jdk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestJdkDynamicProxy" />
         <item itemvalue="Application.NioSocketChannel" />
         <item itemvalue="Application.BioSocketServer" />
         <item itemvalue="Application.BioSocketClient" />
         <item itemvalue="Application.FileIoTest" />
-        <item itemvalue="Application.NIOClient" />
       </list>
     </recent_temporary>
   </component>
@@ -147,13 +140,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="300" y="110" key="#Project_Structure" timestamp="1605242247467">
-      <screen x="65" y="24" width="1375" height="876" />
+    <state x="674" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1614300564670">
+      <screen x="65" y="24" width="1215" height="936" />
     </state>
-    <state x="300" y="110" key="#Project_Structure/65.24.1375.876@65.24.1375.876" timestamp="1605242247467" />
-    <state x="754" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1612406891180">
-      <screen x="65" y="24" width="1375" height="876" />
-    </state>
+    <state x="674" y="272" key="#com.intellij.ide.util.MemberChooser/65.24.1215.936@65.24.1215.936" timestamp="1614300564670" />
     <state x="754" y="256" key="#com.intellij.ide.util.MemberChooser/65.24.1375.876@65.24.1375.876" timestamp="1612406891180" />
     <state x="496" y="101" key="#xdebugger.evaluate" timestamp="1612572790793">
       <screen x="65" y="24" width="1375" height="876" />
@@ -163,21 +153,25 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="481" y="207" key="FileChooserDialogImpl/65.24.1375.876@65.24.1375.876" timestamp="1610133498369" />
-    <state width="1323" height="147" key="GridCell.Tab.0.bottom" timestamp="1612574365104">
-      <screen x="65" y="24" width="1375" height="876" />
+    <state width="1163" height="160" key="GridCell.Tab.0.bottom" timestamp="1614300776441">
+      <screen x="65" y="24" width="1215" height="936" />
     </state>
+    <state width="1163" height="160" key="GridCell.Tab.0.bottom/65.24.1215.936@65.24.1215.936" timestamp="1614300776441" />
     <state width="1323" height="147" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1612574365104" />
-    <state width="1323" height="147" key="GridCell.Tab.0.center" timestamp="1612574365104">
-      <screen x="65" y="24" width="1375" height="876" />
+    <state width="1163" height="160" key="GridCell.Tab.0.center" timestamp="1614300776441">
+      <screen x="65" y="24" width="1215" height="936" />
     </state>
+    <state width="1163" height="160" key="GridCell.Tab.0.center/65.24.1215.936@65.24.1215.936" timestamp="1614300776441" />
     <state width="1323" height="147" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1612574365104" />
-    <state width="1323" height="147" key="GridCell.Tab.0.left" timestamp="1612574365104">
-      <screen x="65" y="24" width="1375" height="876" />
+    <state width="1163" height="160" key="GridCell.Tab.0.left" timestamp="1614300776441">
+      <screen x="65" y="24" width="1215" height="936" />
     </state>
+    <state width="1163" height="160" key="GridCell.Tab.0.left/65.24.1215.936@65.24.1215.936" timestamp="1614300776441" />
     <state width="1323" height="147" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1612574365104" />
-    <state width="1323" height="147" key="GridCell.Tab.0.right" timestamp="1612574365104">
-      <screen x="65" y="24" width="1375" height="876" />
+    <state width="1163" height="160" key="GridCell.Tab.0.right" timestamp="1614300776441">
+      <screen x="65" y="24" width="1215" height="936" />
     </state>
+    <state width="1163" height="160" key="GridCell.Tab.0.right/65.24.1215.936@65.24.1215.936" timestamp="1614300776441" />
     <state width="1323" height="147" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1612574365104" />
     <state width="1323" height="290" key="GridCell.Tab.1.bottom" timestamp="1612573653652">
       <screen x="65" y="24" width="1375" height="876" />
